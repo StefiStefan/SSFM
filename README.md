@@ -1,14 +1,14 @@
 # SSFM #SorryForMyEnglish
-Windows-only terminal based file mover. Using the built in windows command.
-This file mover isn't beneficial for low amount of files, but rather for large amount of certain type of files.
-For me, it was due to videos being converted, and they had a '-converted' written into the name of the file, so
-i had a large quantity of videos, and every two of them were only needed. So i created this, that based on a config file
+Windows-only terminal based file mover. Using built-in windows command.
+This file mover isn't beneficial on low amount of files, rather for large amount of (certain type of) files.
+For me, it was due to videos being converted, and they had a '-converted' written in the name of the file, so
+i had a large quantity of files, which of every named so needed. So i created this, that based on a config file
 actually moves around every desired file i'd like. Also, i'm a beginner """programmer""", so i created this as a practice.
 Feel free to roast me, if it helps me to learn useful things in programming. ty <3
 
 About usage: 
 this file mover actually uses the windows terminal command: "move /y <destination> <target>" syntax, only i always misspellt it and 
-could've broke my monitor in rage of not working. Therefore i wrote this piece of sh*t. 
+I could've broke my monitor bevause of the rage, that it wasn't working. Therefore i wrote this piece of sh*t. 
 
 U need to configure the config.cfg (creative naming, thank you), and then run the SSFM.exe. You'll see what does SSFM stand for. 
 Config.cfg structure(the ; indicates my comment here, do not include in it):
@@ -21,7 +21,7 @@ PathTO    ;The folder you're sending the files to, obviously.
              
              
 Regulations: After every path you have to include a backslash(eg: D:\replay isn't valid, D:\replay\ is valid)
-              files containing spaces, u can use the last '*'and the last word or instead spaces u can use the '?'
+              files containing spaces, u can use the '*' character and the last word or instead spaces u can use the '?'
               
 Music: Kurupt- C Walk, All music rights belong to their respective owners.
          Can be changed, regulation: .wav file, named as c_walk, or renamed in the source code.
